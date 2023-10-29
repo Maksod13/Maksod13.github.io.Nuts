@@ -1,0 +1,178 @@
+.map {
+    width: 100%;
+    min-height: 710px;
+    background: #FBFBFB;
+
+    .map__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1310px;
+        margin: 0 auto;
+        padding: 0 10px;
+        padding-top: 103px;
+
+        .map__info--title {
+            color: #1A2F3F;
+            font-family: Raleway;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            letter-spacing: -1px;
+        }
+
+        .map__info--contacts {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 15px;
+            align-items: center;
+            justify-content: flex-end;
+            padding-top: 75px;
+
+            .middle__contacts--social {
+                display: flex;
+                gap: 10px;
+                flex-direction: row;
+
+                .contacts__social--item {
+                    width: 31px;
+                    height: 31px;
+                    background-color: #337D5A;
+                    border-radius: 50%;
+
+                    svg {
+                        margin: 7px;
+                    }
+                }
+            }
+
+            .middle__contacts--tel {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                .contacts__tel--number {
+                    color: #337D5A;
+                    font-family: Montserrat;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+
+        }
+
+        .map__info--mail {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: first baseline;
+            padding-top: 45px;
+
+            a {
+                color: #1A2F3F;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 21px;
+                /* 150% */
+                letter-spacing: 0.14px;
+            }
+        }
+
+        .map__info--ofice {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            padding-top: 45px;
+
+            .info__ofice--inner {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                .ofice__inner--name {
+                    color: #1A2F3F;
+                    font-family: Raleway;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+                    letter-spacing: 0px;
+                }
+
+                .ofice__inner--adress {
+                    width: 150px;
+                    color: #1A2F3F;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 21px;
+                    /* 150% */
+                    letter-spacing: 0.14px;
+                }
+            }
+        }
+
+        .map__info--manufactory {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            padding-top: 40px;
+
+            .info__manufactory--inner {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                .manufactory__inner--name {
+                    color: #1A2F3F;
+                    font-family: Raleway;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+                    letter-spacing: 0.17px;
+                }
+
+                .manufactory__inner--adress {
+                    width: 240px;
+                    color: #1A2F3F;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 21px;
+                    /* 150% */
+                    letter-spacing: 0.14px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .map__container--map {
+        iframe {
+            width: 500px;
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .map .map__container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .map__container--map {
+        iframe {
+            width: 100%;
+        }
+    }
+}

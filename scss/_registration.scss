@@ -1,0 +1,342 @@
+.registration {
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    .swiper__main--links {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+
+        .swiper__link {
+            color: #8A8A8A;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.28px;
+        }
+    }
+
+    .reg__inner {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: row;
+        gap: 265px;
+
+        .reg__inner--column {
+            .reg__inner--title {
+                color: #1A2F3F;
+                font-family: Raleway;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 32px;
+                /* 100% */
+                letter-spacing: 0.32px;
+            }
+
+            .reg__inner--item {
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+
+                .reg__item--title {
+                    color: #1A2F3F;
+                    font-family: Montserrat;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    /* 188.235% */
+                    letter-spacing: 0px;
+                }
+
+                .reg__item--legal {
+                    margin-top: 33px;
+                    margin-left: 30px;
+                    display: flex;
+                    gap: 100px;
+
+                    .reg__legal--item {
+                        color: #000;
+                        font-family: Montserrat;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 17px;
+                        /* 113.333% */
+                    }
+                }
+
+                .reg__item--info {
+                    margin-top: 55px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    .reg__info--item {
+                        input {
+                            width: 474px;
+                            height: 47px;
+                            border: 0.5px solid rgba(0, 0, 0, 0.15);
+                            padding-left: 15px;
+
+                        }
+
+                        input::placeholder {
+
+                            color: #1A2F3F;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 17px;
+                            /* 121.429% */
+                        }
+                    }
+                }
+            }
+
+            .reg__inner--item2 {
+                display: flex;
+                flex-direction: column;
+                margin-top: 48px;
+
+                .reg__item--title {
+                    color: #1A2F3F;
+                    font-family: Montserrat;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    /* 188.235% */
+                    letter-spacing: 0px;
+                }
+
+                .reg__item--info {
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    .reg__info--item {
+                        input {
+                            width: 474px;
+                            height: 47px;
+                            border: 0.5px solid rgba(0, 0, 0, 0.15);
+                            padding-left: 15px;
+                        }
+
+                        input::placeholder {
+
+                            color: #1A2F3F;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 17px;
+                            /* 121.429% */
+                        }
+
+                        select {
+                            width: 474px;
+                            height: 47px;
+                            border: 0.5px solid rgba(0, 0, 0, 0.15);
+                            padding-left: 15px;
+                            color: #1A2F3F;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 17px;
+                        }
+                    }
+                }
+            }
+
+            .reg__inner--item3 {
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+
+                .reg__item--title {
+                    color: #1A2F3F;
+                    font-family: Montserrat;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    /* 188.235% */
+                    letter-spacing: 0px;
+                }
+
+                .reg__item--info {
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    .reg__info--item {
+                        input {
+                            width: 474px;
+                            height: 47px;
+                            border: 0.5px solid rgba(0, 0, 0, 0.15);
+                            padding-left: 15px;
+                        }
+
+                        input::placeholder {
+
+                            color: #1A2F3F;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 17px;
+                            /* 121.429% */
+                        }
+                    }
+                }
+            }
+
+            .reg__inner--checkbox {
+                margin-top: 20px;
+
+                label {
+                    display: flex;
+                    gap: 10px;
+
+                    .custom-checkbox {
+                        color: #8A8A8A;
+                        font-family: Montserrat;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 32px;
+                        /* 246.154% */
+                        letter-spacing: 0.13px;
+                    }
+                }
+            }
+
+            .reg__inner--btn {
+                margin-top: 20px;
+                width: 474px;
+                height: 50px;
+                border: 0.5px solid #337D5A;
+                background: #337D5A;
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 17px;
+                /* 106.25% */
+            }
+
+            .reg__column--img {
+                position: relative;
+                margin-top: 115px;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(51, 125, 90, 0.60);
+                    top: 0;
+                }
+
+                .upload__photo {
+                    position: absolute;
+                    top: 46%;
+
+                    input {
+                        color: #FFF;
+                        font-family: Montserrat;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 17px;
+                        /* 130.769% */
+                        border-bottom: 1px dashed #FFF;
+                    }
+                }
+            }
+
+            .reg__inner--checkbox2 {
+                margin-top: 18px;
+
+                label {
+                    display: flex;
+                    gap: 10px;
+                }
+
+                .custom-checkbox2 {
+                    color: #8A8A8A;
+                    font-family: Montserrat;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 32px;
+                    /* 246.154% */
+                    letter-spacing: 0.13px;
+                }
+            }
+
+
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .registration .reg__inner .reg__inner--column .reg__inner--item .reg__item--info .reg__info--item input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .registration .reg__inner .reg__inner--column .reg__inner--item2 .reg__item--info .reg__info--item select {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .registration .reg__inner .reg__inner--column .reg__inner--item2 .reg__item--info .reg__info--item input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .registration .reg__inner .reg__inner--column .reg__inner--item3 .reg__item--info .reg__info--item input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .registration .reg__inner .reg__inner--column .reg__inner--btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .registration .reg__inner .reg__inner--column .reg__inner--item .reg__item--legal {
+        gap: 50px;
+        margin-left: 0;
+
+    }
+
+    .registration .reg__inner {
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .registration .reg__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .registration .reg__inner .reg__inner--column .reg__column--img {
+        max-width: 131px;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
