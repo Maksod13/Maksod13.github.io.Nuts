@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Орехи</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
+  <body>
+    <!--=include header.html-->
+    <section class="registration">
+      <div class="container__content">
+        <div class="swiper__main--links">
+          <a href="registration.html" class="swiper__link">Регистрация</a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+          >
+            <path
+              d="M7.00001 11L6.3 10.3L10.1 6.5H0V5.50002H10.1L6.3 1.7L7.00001 1.00002L12 6.00001L7.00001 11Z"
+              fill="#8A8A8A"
+            />
+          </svg>
+          <a href="avatar.html" class="swiper__link">Учетная запись </a>
+        </div>
+        <div class="reg__inner">
+          <div class="reg__inner--column">
+            <div class="reg__inner--title">Регистрация</div>
+            <div class="reg__inner--item">
+              <div class="reg__item--title">1. Контактные данные</div>
+              <div class="reg__item--legal">
+                <div class="reg__legal--item">Физическое лицо</div>
+                <div class="reg__legal--item">Юридическое лицо</div>
+              </div>
+              <div class="reg__item--info">
+                <div class="reg__info--item">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="ФИО"
+                    required
+                  />
+                </div>
+
+                <div class="reg__info--item">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+
+                <div class="reg__info--item">
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Телефон"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="reg__inner--item2">
+              <div class="reg__item--title">2. Адрес</div>
+              <div class="reg__item--info">
+                <div class="reg__info--item">
+                  <select id="country" name="country">
+                    <option disabled selected>Страна</option>
+                    <option value="usa">США</option>
+                    <option value="canada">Канада</option>
+                    <option value="uk">Великобритания</option>
+                  </select>
+                </div>
+                <div class="reg__info--item">
+                  <select id="region" name="region">
+                    <option disabled selected>Oбласть</option>
+                    <option value="ny">Нью-Йорк</option>
+                    <option value="ca">Калифорния</option>
+                    <option value="on">Онтарио</option>
+                    <!-- Добавьте другие области по аналогии -->
+                  </select>
+                </div>
+                <div class="reg__info--item">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Город"
+                    required
+                  />
+                </div>
+                <div class="reg__info--item">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Адресс"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="reg__inner--item3">
+              <div class="reg__item--title">3. Пароль</div>
+              <div class="reg__item--info">
+                <div class="reg__info--item">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Пароль"
+                    required
+                  />
+                </div>
+
+                <div class="reg__info--item">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Подтвердите пароль*"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="reg__inner--checkbox">
+              <label>
+                <input type="checkbox" />
+                <span class="custom-checkbox"
+                  >Я согласен с Условиями регистрации</span
+                >
+              </label>
+            </div>
+            <button class="reg__inner--btn">Продолжить</button>
+          </div>
+          <div class="reg__inner--column">
+            <div class="reg__column--img">
+              <img src="images/dist/picture.avif" alt="" />
+
+              <form
+                class="upload__photo"
+                action="upload.php"
+                method="post"
+                enctype="multipart/form-data"
+              >
+                <input
+                  type="image"
+                  src="upload-image-icon.png"
+                  alt="Загрузить фото"
+                />
+              </form>
+            </div>
+            <div class="reg__inner--checkbox2">
+              <label>
+                <input type="checkbox" />
+                <span class="custom-checkbox2">Являюсь ФОП</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=include map.html-->
+    <!--=include footer.html-->
+    <script src="js/header.js"></script>
+  </body>
+</html>
